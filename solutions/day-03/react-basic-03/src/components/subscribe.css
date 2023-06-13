@@ -1,0 +1,32 @@
+.subscribe-container {
+  margin: 20px 0;
+  background-color: #a3dceb;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.subscribe-title {
+  font-size: 25px;
+}
+
+.subscribe-form-info {
+  margin-bottom: 50px;
+}
+
+.subscribe-form-input {
+  padding: 15px;
+  border: none;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+.subscribe-form-button {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 13px 10px;
+  width: 300px;
+  background-color: rgb(241, 110, 110);
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
