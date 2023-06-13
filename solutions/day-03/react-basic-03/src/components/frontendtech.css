@@ -1,0 +1,11 @@
+.tech-container {
+  display: flex;
+  /* border: 1px solid; */
+  height: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.frontend-logo {
+  width: 100px;
+}
