@@ -1,0 +1,38 @@
+p {
+  margin: 0;
+}
+
+.world-population-title {
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.world-population-info {
+  margin: 0;
+}
+
+.world-population-grid {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 120px 1fr 120px;
+  row-gap: 5px;
+  /* border: solid 1px; */
+}
+
+.country-name {
+  text-align: start;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 5px 0;
+}
+
+.country-graph {
+  background-color: rgb(255, 145, 0);
+  border-radius: 3px;
+}
+
+.country-population {
+  text-align: left;
+  padding-left: 10px;
+  font-weight: 500;
+}

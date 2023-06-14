@@ -1,8 +1,8 @@
 .App {
   text-align: center;
   box-sizing: border-box;
-  width: 900px;
-  border: solid 1px;
+  width: 1000px;
+  /* border: solid 1px; */
   margin: auto;
   padding: 20px;
 }

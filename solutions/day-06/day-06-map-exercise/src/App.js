@@ -1,6 +1,7 @@
 import "./App.css";
 import HexaNumbers from "./components/HexaNumbers";
 import Numbers from "./components/Numbers";
+import WorldPopulation from "./components/WorldPopulation";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       </header>
       <Numbers />
       <HexaNumbers />
+      <WorldPopulation />
     </div>
   );
 }
