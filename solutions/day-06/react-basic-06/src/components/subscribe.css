@@ -1,0 +1,52 @@
+.subscribe-container {
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.subscribe-title {
+  font-size: 25px;
+}
+
+.subscribe-form-info {
+  margin-bottom: 50px;
+}
+
+.subscribe-form-input {
+  padding: 15px;
+  border: none;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+.subscribe-form-button {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 13px 10px;
+  width: 300px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Light Mode */
+.subscribe-light {
+  background-color: #a3dceb;
+  color: black;
+}
+
+.subscribe-light-highlight {
+  background-color: #f16e6e;
+  color: white;
+}
+
+/* Dark Mode */
+.subscribe-dark {
+  background-color: rgb(40, 40, 40);
+  color: white;
+}
+
+.subscribe-dark-highlight {
+  background-color: #6ef1f1;
+  color: black;
+}

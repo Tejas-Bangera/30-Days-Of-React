@@ -1,0 +1,82 @@
+.user-card {
+  padding: 20px;
+  text-align: left;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.user-profile-picture {
+  width: 200px;
+  border-radius: 50%;
+  border: solid 1px;
+}
+
+.user-profile-picture-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.dark-mode-button {
+  font-size: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.user-name-row {
+  display: flex;
+  align-items: center;
+}
+
+.user-name {
+  margin-right: 5px;
+}
+
+.skills-list {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 0;
+}
+
+.skills-list-item {
+  list-style-type: none;
+  min-width: 40px;
+  text-align: center;
+  padding: 5px 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.joined-on-row {
+  display: flex;
+  align-items: center;
+}
+
+.joined-on-info {
+  margin: 0;
+  color: #878787;
+  margin-left: 10px;
+}
+
+/* Light Mode */
+.user-card-light {
+  background-color: white;
+  color: black;
+}
+
+.user-card-light-highlight {
+  background-color: #f16e6e;
+}
+
+/* Dark Mode */
+.user-card-dark {
+  background-color: rgb(40, 40, 40);
+  color: white;
+}
+
+.user-card-dark-highlight {
+  background-color: #3de1de;
+}
