@@ -1,4 +1,5 @@
 import "./App.css";
+import HexaNumbers from "./components/HexaNumbers";
 import Numbers from "./components/Numbers";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
         <h2 className="app-title">30 Days of React</h2>
       </header>
       <Numbers />
+      <HexaNumbers />
     </div>
   );
 }
