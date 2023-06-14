@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  width: 900px;
+  border: solid 1px;
+  margin: auto;
+  padding: 20px;
+}
+
+.app-title {
+  font-size: 35px;
+}
