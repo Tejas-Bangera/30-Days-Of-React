@@ -6,8 +6,20 @@ const Numbers = () => {
     numbers.push(i);
   }
 
-  function getColor() {
-    return "grey";
+  function isPrime(number) {
+    if (number < 2) return false;
+
+    for (let i = 2; i * i <= number; i++) {
+      if (number % i === 0) return false;
+    }
+
+    return true;
+  }
+
+  function getColor(number) {
+    if (isPrime(number)) return "rgb(255, 81, 81)";
+
+    return number % 2 === 0 ? "rgb(21, 196, 88)" : "rgb(255, 238, 0)";
   }
 
   return (
