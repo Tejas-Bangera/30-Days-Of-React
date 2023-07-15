@@ -7,9 +7,11 @@
 - I used props to provide the input `type`, `pattern`, `required` attributes to the input.
 - The error message is shown only `onBlur` if the input is invalid made possible using some css rules (available in the `formInput.css` file).
 
-This is a `STATIC`registration form with the following validations,
+This is a `STATIC` registration form with the following validations,
 
 ## 1. Username Validation
+
+![Username validation](./screenshots/image-2.png)
 
 I used the `pattern` attribute to provide the below regular expression for validation.
 
@@ -20,15 +22,15 @@ I used the `pattern` attribute to provide the below regular expression for valid
 [a-zA-Z0-9]{3,16}
 ```
 
-![Username validation](./screenshots/image-2.png)
-
 ## 2. Email Validation
-
-I used the input `type` as email and the `required` attribute for this.
 
 ![Email validation](./screenshots/image-3.png)
 
+I used the input `type` as email and the `required` attribute for this.
+
 ## 3. Password Validation
+
+![Password validation](./screenshots/image-4.png)
 
 I used the `pattern` attribute to provide the below regular expression for validation.
 
@@ -41,15 +43,11 @@ I used the `pattern` attribute to provide the below regular expression for valid
 ^(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?=.*[0-9]).{8,}$
 ```
 
-![Password validation](./screenshots/image-4.png)
-
 ## 4. Confirm Password Validation
-
-For the confirm password validation the confirm password input must match the password input.
 
 ![Confirm Password validation](./screenshots/image-5.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For the confirm password validation the confirm password input must match the password input.
 
 ## CSS Rule for validation error
 
@@ -75,6 +73,8 @@ input:invalid[focused="true"] ~ span {
   display: block;
 }
 ```
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
