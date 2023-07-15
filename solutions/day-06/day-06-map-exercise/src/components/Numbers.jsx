@@ -1,3 +1,4 @@
+import Grid from "./Grid";
 import "./numbers.css";
 
 const Numbers = () => {
@@ -23,22 +24,7 @@ const Numbers = () => {
   }
 
   return (
-    <section>
-      <p className="numbers-title">Numbers</p>
-      <div className="numbers-grid">
-        {numbers.map((number) => {
-          return (
-            <div
-              key={number}
-              className="number-cell"
-              style={{ backgroundColor: getColor(number) }}
-            >
-              {number}
-            </div>
-          );
-        })}
-      </div>
-    </section>
+    <Grid title={"Number Grid"} numbers={numbers} utilityFunc={getColor} />
   );
 };
 export default Numbers;

@@ -1,4 +1,34 @@
-# Getting Started with Create React App
+# 30 Days of React - Day 06
+
+Exercise to create grid of numbers, grid of randomly generated hexadecimal colors and a list of country wise population as a bar graph
+
+It is a `STATIC` website with 3 sections
+
+## 1. Number Grid
+
+Created a grid of 32 cells which are colored as follows,
+
+| Number | Color                                                           |
+| ------ | --------------------------------------------------------------- |
+| Prime  | ![#ff0000](https://via.placeholder.com/10/ff0000?text=+) Red    |
+| Even   | ![#00ff00](https://via.placeholder.com/10/00ff00?text=+) Green  |
+| Odd    | ![#ffff00](https://via.placeholder.com/10/ffff00?text=+) Yellow |
+
+![Number Grid](./screenshots/image.png)
+
+## 2. Hexadecimal Grid
+
+- Reused the common Grid component that was created for the previous Number Grid.
+- Applied prop drilling to attach necessary details for the cell contents of the grid.
+
+![Hexadecimal Grid](./screenshots/image-1.png)
+
+## 3. World Population list
+
+- Using the data from the saved file `./assets/country-data.js` created a unordered list of countries and it's respective populations displayed as a horizontal bar graph.
+- Used the `country-population / world-population` percentage to calculate and apply as width style for each list item.
+
+![World Population List](./screenshots/image-2.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

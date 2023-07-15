@@ -1,5 +1,6 @@
 import "./numbers.css";
 import "./hexanumbers.css";
+import Grid from "./Grid";
 
 const HexaNumbers = () => {
   function getRandomHex() {
@@ -25,22 +26,27 @@ const HexaNumbers = () => {
   const numbers = getNumbers();
 
   return (
-    <section className="hexa-numbers-container">
-      <p className="numbers-title">Hexidecimal colors</p>
-      <div className="numbers-grid">
-        {numbers.map((number) => {
-          return (
-            <div
-              key={number}
-              className="hexa-number-cell"
-              style={{ backgroundColor: getRandomHex() }}
-            >
-              {number}
-            </div>
-          );
-        })}
-      </div>
-    </section>
+    // <section className="hexa-numbers-container">
+    //   <p className="numbers-title">Hexidecimal colors</p>
+    //   <div className="numbers-grid">
+    //     {numbers.map((number) => {
+    //       return (
+    //         <div
+    //           key={number}
+    //           className="hexa-number-cell"
+    //           style={{ backgroundColor: getRandomHex() }}
+    //         >
+    //           {number}
+    //         </div>
+    //       );
+    //     })}
+    //   </div>
+    // </section>
+    <Grid
+      title={"Hexadecimal Grid"}
+      numbers={numbers}
+      utilityFunc={getRandomHex}
+    />
   );
 };
 export default HexaNumbers;
