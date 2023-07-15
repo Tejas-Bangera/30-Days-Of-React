@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Catch me if you can!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a tiny project for a runaway button. The button is programmed to change it's position on hover.
+
+## Runaway Button 🏃🏻‍♂️💨
+
+Created a button and attached an on mouse over event listener which will change the position of the button to a random position within the browser window.
+
+To change the position dynamically I made use of `useState` hook to set the _x_ and _y_ coordinates of the button to a random value on every hover.
+
+![Frontend Technologies](./screenshots/runaway-button.gif)
 
 ## Available Scripts
 
