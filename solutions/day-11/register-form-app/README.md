@@ -1,6 +1,80 @@
-# Getting Started with Create React App
+# Basic Registration Form
+
+![Registration form](./screenshots/image-1.png)
+
+- In this project I worked on developing a registration form with **form validations**.
+- I created a reusable `FormInput` component that provides a label and an input which I used in the form for various inputs like `username`, `email`, `password` etc.
+- I used props to provide the input `type`, `pattern`, `required` attributes to the input.
+- The error message is shown only `onBlur` if the input is invalid made possible using some css rules (available in the `formInput.css` file).
+
+This is a `STATIC`registration form with the following validations,
+
+## 1. Username Validation
+
+I used the `pattern` attribute to provide the below regular expression for validation.
+
+```bash
+# The username must not include any special characters
+# and must be 3 to 16 characters in length
+
+[a-zA-Z0-9]{3,16}
+```
+
+![Username validation](./screenshots/image-2.png)
+
+## 2. Email Validation
+
+I used the input `type` as email and the `required` attribute for this.
+
+![Email validation](./screenshots/image-3.png)
+
+## 3. Password Validation
+
+I used the `pattern` attribute to provide the below regular expression for validation.
+
+```bash
+# The password must include atleast 1 uppercase - (?=.*[A-Z])
+# Atleast 1 special character - (?=.*[^a-zA-Z0-9])
+# Atleast 1 number - (?=.*[0-9])
+# and should be minimum 8 characters in length
+
+^(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?=.*[0-9]).{8,}$
+```
+
+![Password validation](./screenshots/image-4.png)
+
+## 4. Confirm Password Validation
+
+For the confirm password validation the confirm password input must match the password input.
+
+![Confirm Password validation](./screenshots/image-5.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## CSS Rule for validation error
+
+```css
+/* Span => Error message */
+span {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  /* Initially hidden */
+  display: none;
+}
+
+/* On invalid input */
+input:invalid[focused="true"] {
+  /* Change input border for error */
+  border: 1px solid red;
+}
+
+/* On invalid input */
+input:invalid[focused="true"] ~ span {
+  /* Display the Span Error message */
+  display: block;
+}
+```
 
 ## Available Scripts
 

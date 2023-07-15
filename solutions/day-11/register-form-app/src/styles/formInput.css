@@ -17,17 +17,23 @@ label {
   color: grey;
 }
 
+/* Span => Error message */
 span {
   font-size: 12px;
   padding: 3px;
   color: red;
+  /* Initially hidden */
   display: none;
 }
 
+/* On invalid input */
 input:invalid[focused="true"] {
+  /* Change input border for error */
   border: 1px solid red;
 }
 
+/* On invalid input */
 input:invalid[focused="true"] ~ span {
+  /* Display the Span Error message */
   display: block;
 }
