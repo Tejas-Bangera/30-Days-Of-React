@@ -1,6 +1,32 @@
-# Getting Started with Create React App
+# Basic Single Page Portfolio
+
+This is my first project in React created in the month of `June 2023` showcasing my learnings in **React components** and basics of HTML, CSS.
+
+It is a `STATIC` website with 3 sections,
+
+## 1. **Frontend Technologies**
+
+One row of images of frontend technologies that I am familiar with.
+
+![Frontend Technologies](FrontendTech.png)
+
+## 2. **Profile card**
+
+Card section with profile image, name and skills I have acquired.
+
+![Profile section](ProfileCard.png)
+
+## 3. **Subscribe to newsletter card**
+
+Another card section for newsletter subscription with a form and a subscribe button.
+
+![Subscribe to newsletter](SubscribeNewsletter.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## My thoughts
+
+> _Well, I came back here to create a README for this project so that I can look at my projects and smile to realise how much I have grown over the years._
 
 ## Available Scripts
 
