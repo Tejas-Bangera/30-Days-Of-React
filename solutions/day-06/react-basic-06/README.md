@@ -1,4 +1,32 @@
-# Getting Started with Create React App
+# 30 Days of React - Day 06
+
+- This project was created in the **`30 Days of React - Day 03`** as a basic portfolio.
+
+- For this exercise I added a 🌙 `DARK MODE` toggle button in the Profile section.
+
+- It is a `STATIC` website with 3 sections,
+
+## 1. **Frontend Technologies**
+
+One row of images of frontend technologies that I am familiar with.
+
+![Frontend Technologies](./screenshots/image.png)
+
+## 2. **Profile card**
+
+Card section with profile image, name and skills I have acquired.
+
+![Profile section](./screenshots/image-1.png)
+
+Added the 🌙 dark mode toggle button here.
+
+![Dark mode toggle](./screenshots/darkmode-2.gif)
+
+## 3. **Subscribe to newsletter card**
+
+Another card section for newsletter subscription with a form and a subscribe button.
+
+![Subscribe to newsletter](./screenshots/image-2.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
